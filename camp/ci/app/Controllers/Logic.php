@@ -105,11 +105,26 @@ class Logic extends BaseController
             if($pin['used'] == 1){
                 $this->msg('Sorry, this pin has been used.');
             }else{
+                $house = $this->generateHouse($incoming['gender']);
+              $incoming['house'] = $house;
     		  $id = $Delegates->insert($incoming);
     		  $Pins->update($pin['id'],['used'=>'1']);
-    		  $this->msg('Congratulations! Your registration was successful <br> Reg. No: <b> '.$id.'</b>');
+    		  $this->msg('Congratulations! Your registration was successful <br> Reg. No: <b> '.$id.'</b> <br> Your group is <b>'.$house.'</b>');
     		}
 	}
+
+    public function generateHouse($gender)
+    {
+        $mHouses = ['1', '2', '3', '4'];
+        $fHouses = ['1', '2', '3', '4'];
+        if($gender=='male'){
+            $key = array_rand($mHouses);
+            return $mHouses[$key];
+        }else{
+            $key = array_rand($fHouses);
+            return $fHouses[$key];
+        }
+    }
 
 	public function sms()
 	{

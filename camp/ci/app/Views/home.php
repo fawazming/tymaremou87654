@@ -21,22 +21,29 @@
                     <label for="tc">Training Circle</label>
                     <select name="tc" id="tc" class="form-control" required>
                         <option value="">Select a TC</option>
-                        <option value="Abeokuta South">Abeokuta South</option>
-                        <option value="Abeokuta North">Abeokuta North</option>
-                        <option value="Aiyetoro">Aiyetoro</option>
-                        <option value="Ilaro">Ilaro</option>
-                        <option value="Owode">Owode</option>
-                        <option value="Elega">Elega</option>
-                        <option value="Onikolobo">Onikolobo</option>
-                        <option value="TYLF">TYLF</option>
+                        <option value="Ayegbami">Ayegbami</option>
+                        <option value="Sabo">Sabo</option>
+                        <option value="Igbepa">Igbepa</option>
+                        <option value="Iperu">Iperu</option>
+                        <option value="Ogere">Ogere</option>
+                        <option value="Ikenne">Ikenne</option>
+                        <option value="Ayepa">Ayepa</option>
+                        <option value="Ode-Ishara">Ode-Ishara</option>
+                        <option value="Others">Others</option>
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="age">Age</label>
-                    <input type="number" name="age" id="age" class="form-control" placeholder="" required aria-describedby="Age">
+                    <label for="age">Age Range</label>
+                    <select name="age" id="age">
+                        <option value="">Select an age range</option>
+                        <option value="4-6">4-6</option>
+                        <option value="7-9">7-9</option>
+                        <option value="10-12">10-12</option>
+                        <option value="13 and above">13 and above</option>
+                    </select>
                 </div>
                 <div class="mb-3">
-                    <label for="schoolcls">School Class</label>
+                    <label for="schoolcls">School & Class</label>
                     <input type="text" name="schoolcls" id="schoolcls" class="form-control" placeholder="" required aria-describedby="School Class">
                 </div>
                 <div class="mb-3">

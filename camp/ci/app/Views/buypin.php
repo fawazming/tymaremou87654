@@ -7,9 +7,9 @@
                 <div class="card">
                     <div class="card-body">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHYGfpz2rgIIW2M7c3Vk3g-pS5cTKXo8JScg&s" alt="" class="card-img-top">
-                        <h2 class="card-title">Moniepoint MFB</h2>
-                        <p class="card-text">TYMa TYLf <br>Account No: <a class="card-link" href="tel:6522309527">6522309527</a></p>
-                        <p>Call us on <a href="tel:08084936630">08084936630</a> <br> Whatsapp: <a href="https://wa.me/2348062981091">08062981091</a></p>
+                        <h2 class="card-title">Keystone Bank</h2>
+                        <p class="card-text">The Young Muslims Association <br>Account No: <a class="card-link" href="tel:1013544509">1013544509</a></p>
+                        <p>Call us on <a href="tel:08084936630">08084936630</a> <br> Whatsapp: <a href="https://wa.me/2347066253345">07066253345</a></p>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ class Delegates extends Model
 
     protected $returnType = 'array';
     protected $useSoftDeletes = false;
-    protected $allowedFields = ['fname','lname','tc','phone','age','ailment','schoolcls','ref','address','gender'];
+    protected $allowedFields = ['fname','lname','tc','phone','age','house','ailment','schoolcls','ref','address','gender'];
     protected $useTimestamps = false;
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';

@@ -21,6 +21,7 @@
 							<th>Name</th>
 							<th>Phone</th>
                             <th>Age</th>
+                            <th>Group</th>
 							<th>Sex</th>
 							<th>TC</th>
 							<th>Class</th>
@@ -35,7 +36,9 @@
 							<td><?=$delegate['id']?></td>
 							<td><a href="javascript:;"><?=$delegate['lname']?></a></td>
 							<td><?=$delegate['fname']?></td>
-							<td><?=$delegate['phone']?></td><td><?=$delegate['age']?></td>
+							<td><?=$delegate['phone']?></td>
+							<td><?=$delegate['age']?></td>
+							<td><?=$delegate['house']?></td>
 							<!-- <td><span class="badge badge-success badge-pill">Shipped</span></td> -->
 							<td><?=$delegate['gender']?></td>
 							<td><?=$delegate['tc']?></td>

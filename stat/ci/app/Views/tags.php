@@ -87,7 +87,7 @@
         <img src='https://tymaegbayewa.com.ng/img/logo.png' alt='TYMa Logo' style='width: 50px; height: 50px;'>
         <img src='https://tymaegbayewa.com.ng/img/tyfllogo.png' alt='TYLf Logo' style='width: 50px; height: 50px;'>
         </div>
-        <h1 style='font-size:18px'> National Muslim Children Camping Program <span style='font-size: 10px;'>(NMCCP '2023)</span></h1>
+        <h1 style='font-size:18px'> National Muslim Children Camping Program <span style='font-size: 10px;'>(NMCCP '2024)</span></h1>
         <hr style='height: 2px; background-color: black;'>
         <label for='name'>Name</label>
         <p style='line-height:1rem;' id='name' class='m-0'><b>".$de[0]['fname']."</b> ".$de[0]['lname']."</p><br>
@@ -106,7 +106,7 @@
         <img src='https://tymaegbayewa.com.ng/img/logo.png' alt='TYMa Logo' style='width: 50px; height: 50px;'>
         <img src='https://tymaegbayewa.com.ng/img/tyfllogo.png' alt='TYLf Logo' style='width: 50px; height: 50px;'>
         </div>
-        <h1 style='font-size:18px'> National Muslim Children Camping Program <span style='font-size: 10px;'>(NMCCP '2023)</span></h1>
+        <h1 style='font-size:18px'> National Muslim Children Camping Program <span style='font-size: 10px;'>(NMCCP '2024)</span></h1>
         <hr style='height: 2px; background-color: black;'>
         <label for='name'>Name</label>
         <p style='line-height:1rem;' id='name' class='m-0'><b>".$de[0]['fname']."</b> ".$de[0]['lname']."</p><br>
