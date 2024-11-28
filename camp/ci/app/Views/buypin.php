@@ -9,7 +9,7 @@
                         <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Keystone_Logo.png" alt="" class="card-img-top">
                         <h2 class="card-title">Keystone Bank</h2>
                         <p class="card-text">The Young Muslims Association <br>Account No: <a class="card-link" href="tel:1013544509">1013544509</a></p>
-                        <p>Call us on <a href="tel:08084936630">08084936630</a> <br> Whatsapp: <a href="https://wa.me/2347066253345">07066253345</a></p>
+                        <p>Whatsapp: <a href="https://wa.me/2347066253345">07066253345</a></p>
                     </div>
                 </div>
             </div>

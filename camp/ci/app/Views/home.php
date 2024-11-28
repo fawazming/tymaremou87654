@@ -40,6 +40,7 @@
                         <option value="7-9">7-9</option>
                         <option value="10-12">10-12</option>
                         <option value="13 and above">13 and above</option>
+                        <option value="Worker">Worker</option>
                     </select>
                 </div>
                 <div class="mb-3">
