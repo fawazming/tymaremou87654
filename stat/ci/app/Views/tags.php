@@ -65,15 +65,15 @@
         {
             // dd($age);
             //  4-6 > Bronze, 7-9 > Silver and 10-14 > Gold , 15 and above > Platinum
-            if($age >= 15){
-                return 'PLATINUM';
-            }elseif ($age >= 10 && $age <=14) {
-                return 'GOLD';
-            }elseif ($age >= 7 && $age <=9) {
-                return 'SILVER';
-            }elseif ($age >= 4 && $age <=6) {
-                return 'BRONZE';
-            }
+            // if($age >= 15){
+            //     return 'PLATINUM';
+            // }elseif ($age >= 10 && $age <=14) {
+            //     return 'GOLD';
+            // }elseif ($age >= 7 && $age <=9) {
+            //     return 'SILVER';
+            // }elseif ($age >= 4 && $age <=6) {
+            //     return 'BRONZE';
+            // }
         }
         $counter = 1;
             echo"<div class='container sheet'>";
@@ -92,7 +92,7 @@
         <label for='name'>Name</label>
         <p style='line-height:1rem;' id='name' class='m-0'><b>".$de[0]['fname']."</b> ".$de[0]['lname']."</p><br>
         <label for='age_range'>Age Group</label>
-        <p align-text:center;' id='age_range' class='m-0'><b>".ageGroup($de[0]['age'])."</b></p><br>
+        <p align-text:center;' id='age_range' class='m-0'><b>".($de[0]['age'])."</b></p><br>
         <label style='line-height:0.3rem;' for='dtag'>Delagate Tag</label>
         <p id='dtag' class='m-0'><b>TY-".ab($de[0]['gender'])."-".ib($de[0]['id'])."</b></p>
     </div>
@@ -111,7 +111,7 @@
         <label for='name'>Name</label>
         <p style='line-height:1rem;' id='name' class='m-0'><b>".$de[0]['fname']."</b> ".$de[0]['lname']."</p><br>
         <label for='age_range'>Age Group</label>
-        <p align-text:center;' id='age_range' class='m-0'><b>".ageGroup($de[0]['age'])."</b></p><br>
+        <p align-text:center;' id='age_range' class='m-0'><b>".($de[0]['age'])."</b></p><br>
         <label style='line-height:0.3rem;' for='dtag'>Delagate Tag</label>
         <p id='dtag' class='m-0'><b>TY-".ab($de[0]['gender'])."-".ib($de[0]['id'])."</b></p>
     </div>
